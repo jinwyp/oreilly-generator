@@ -1,0 +1,441 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+body {
+  padding-top: 60px;
+  font: 14px "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  background-color: #F6F8F8;
+}
+
+.form-validation {
+  padding: 5px 0px 0px 0px;
+  font-size: 16px;
+  color: #a94442;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #FFF;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-nav {
+  margin-top: 6px;
+}
+.navbar-nav li a {
+  font-size: 16px;
+  color: #8A8686;
+}
+.navbar-nav li a:active, .navbar-nav li a:focus, .navbar-nav li a:hover {
+  color: #393d40;
+  background-color: #FFF;
+}
+
+.loginbox {
+  width: 800px;
+}
+.loginbox h1 {
+  text-align: left;
+  margin: 30px 10px;
+}
+.loginbox .signup_title {
+  padding: 50px 0px 0px 0px;
+}
+.loginbox .nopadding {
+  padding-left: 0px;
+}
+
+.ogbox {
+  width: 885px;
+  margin-top: 10px;
+  padding: 0px;
+}
+.ogbox h1, .ogbox h2, .ogbox p {
+  margin: 0;
+  outline: 0;
+  font-size: 2rem;
+  line-height: 1;
+}
+.ogbox .book_cover {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin: 0 12px 24px 0;
+  padding: 0 41px 41px;
+  width: 516px;
+  height: 660px;
+  background: #fff;
+  border: 1px solid #000;
+  outline: none;
+  text-shadow: 0 0 1px rgba(150, 150, 150, 0.6);
+}
+.ogbox .book_head {
+  overflow: hidden;
+  border-width: 10px 0 0 0;
+  border-style: solid;
+  margin-bottom: 12px;
+  background: none;
+}
+.ogbox .subtitle_en {
+  padding: 5px 0;
+  background-color: #fff;
+  text-align: center;
+  color: #555;
+  font-weight: normal;
+  font-style: italic;
+  font-family: 'EB Garamond', serif;
+}
+.ogbox .apostrophe {
+  background-color: transparent !important;
+}
+.ogbox .subtitle_ja_above, .ogbox .subtitle_ja_below {
+  min-height: 2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.ogbox .book_title_above {
+  margin-bottom: 5px;
+  font-size: 4rem;
+  cursor: all-scroll;
+  white-space: nowrap;
+  color: white;
+}
+.ogbox .book_title_cover {
+  margin: 5px 0;
+  padding: 15px;
+  width: 432px;
+  color: #fff;
+  font-family: 'EB Garamond', serif;
+  overflow: hidden;
+}
+.ogbox .book_title_below {
+  font-size: 7rem;
+  cursor: all-scroll;
+  white-space: nowrap;
+  color: white;
+}
+.ogbox .animal {
+  position: relative;
+  top: 20px;
+  left: 60px;
+  width: 380px;
+  height: 380px;
+  background-size: 100%;
+  background-position: center center;
+  cursor: all-scroll;
+}
+.ogbox .coverAnimal {
+  max-width: 320px;
+}
+.ogbox .foot_left {
+  left: 0;
+}
+.ogbox .foot_right {
+  right: 0;
+  text-align: right;
+  color: #444;
+}
+.ogbox .foot_left, .ogbox .foot_right {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 30px;
+}
+.ogbox .author {
+  margin-bottom: 5px;
+  font-style: italic;
+}
+.ogbox .book_foot {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  width: 432px;
+}
+.ogbox .theme_box, .ogbox .animal_box, .ogbox .button_box {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5px;
+  padding: 0px 0px 10px 0px;
+  width: 324px;
+  background-color: #f8f8f8;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+.ogbox .box_title {
+  margin: 12px auto 5px;
+  width: 240px;
+  height: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #555;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-style: italic;
+  font-family: 'EB Garamond', serif;
+  text-shadow: 0 0 1px rgba(150, 150, 150, 0.6);
+}
+.ogbox .theme_box ul, .ogbox .animal_box ul {
+  padding: 5px 0px 0px 10px;
+  margin: 0;
+  overflow: hidden;
+}
+.ogbox .theme_box li, .ogbox .animal_box li {
+  border: 0;
+  font-size: 0;
+  line-height: 0;
+  font-family: a;
+  text-shadow: none;
+  color: transparent !important;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.ogbox .theme_box ul {
+  padding-left: 15px;
+}
+.ogbox .theme_box li {
+  margin: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.ogbox .Web_design_and_authoring, .ogbox .theme_0 {
+  color: #55135d;
+  background-color: #55135d;
+  border-color: #55135d;
+}
+.ogbox .power_user_computing, .ogbox .theme_1 {
+  color: #71706e;
+  background-color: #71706e;
+  border-color: #71706e;
+}
+.ogbox .in_a_nutshell_and_desktop_references, .ogbox .theme_2 {
+  color: #941b2a;
+  background-color: #941b2a;
+  border-color: #941b2a;
+}
+.ogbox .java, .ogbox .theme_3 {
+  color: #b80721;
+  background-color: #b80721;
+  border-color: #b80721;
+}
+.ogbox .linux, .ogbox .theme_4 {
+  color: #65161c;
+  background-color: #65161c;
+  border-color: #65161c;
+}
+.ogbox .macintosh, .ogbox .theme_5 {
+  color: #503dbd;
+  background-color: #503dbd;
+  border-color: #503dbd;
+}
+.ogbox .oracle, .ogbox .theme_6 {
+  color: #e11105;
+  background-color: #e11105;
+  border-color: #e11105;
+}
+.ogbox .perl, .ogbox .theme_7 {
+  color: #067bb0;
+  background-color: #067bb0;
+  border-color: #067bb0;
+}
+.ogbox .security, .ogbox .theme_8 {
+  color: #f7b500;
+  background-color: #f7b500;
+  border-color: #f7b500;
+}
+.ogbox .system_and_network_administration, .ogbox .theme_9 {
+  color: #000f76;
+  background-color: #000f76;
+  border-color: #000f76;
+}
+.ogbox .unix_c_programming, .ogbox .theme_10 {
+  color: #a8009b;
+  background-color: #a8009b;
+  border-color: #a8009b;
+}
+.ogbox .unix_text_procsseing, .ogbox .theme_11 {
+  color: #008445;
+  background-color: #008445;
+  border-color: #008445;
+}
+.ogbox .the_web, .ogbox .theme_12 {
+  color: #00999d;
+  background-color: #00999d;
+  border-color: #00999d;
+}
+.ogbox .windows_programming, .ogbox .theme_13 {
+  color: #014284;
+  background-color: #014284;
+  border-color: #014284;
+}
+.ogbox .windows_nt_system_administration, .ogbox .theme_14 {
+  color: #b10034;
+  background-color: #b10034;
+  border-color: #b10034;
+}
+.ogbox .xml, .ogbox .theme_15 {
+  color: #378e19;
+  background-color: #378e19;
+  border-color: #378e19;
+}
+.ogbox .mobile, .ogbox .theme_16 {
+  color: #859800;
+  background-color: #859800;
+  border-color: #859800;
+}
+.ogbox .animal_box li {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  background: url("../src/css/images/og/animal_sprites_1.png");
+  background-size: 200px 320px;
+  -moz-background-size: 200px 320px;
+  -webkit-background-size: 200px 320px;
+  -o-background-size: 200px 320px;
+  -ms-background-size: 200px 320px;
+}
+.ogbox .theme_box li:hover, .ogbox .animal_box li:hover, .ogbox .animal_box li.hovered {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.ogbox .ribbon_half, .ogbox .button_box .icon_camera, .ogbox .theme_box li, .ogbox .animal_box li {
+  transition-duration: .5s;
+}
+.ogbox .theme_box li, .ogbox .animal_box li {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent !important;
+}
+.ogbox .animal_box .animal_2 {
+  background-position: -40px 0;
+}
+.ogbox .animal_box .animal_3 {
+  background-position: -80px 0;
+}
+.ogbox .animal_box .animal_4 {
+  background-position: -120px 0;
+}
+.ogbox .animal_box .animal_5 {
+  background-position: -160px 0;
+}
+.ogbox .animal_box .animal_6 {
+  background-position: 0 -40px;
+}
+.ogbox .animal_box .animal_7 {
+  background-position: -40px -40px;
+}
+.ogbox .animal_box .animal_8 {
+  background-position: -80px -40px;
+}
+.ogbox .animal_box .animal_9 {
+  background-position: -120px -40px;
+}
+.ogbox .animal_box .animal_10 {
+  background-position: -160px -40px;
+}
+.ogbox .animal_box .animal_11 {
+  background-position: 0 -80px;
+}
+.ogbox .animal_box .animal_12 {
+  background-position: -40px -80px;
+}
+.ogbox .animal_box .animal_13 {
+  background-position: -80px -80px;
+}
+.ogbox .animal_box .animal_14 {
+  background-position: -120px -80px;
+}
+.ogbox .animal_box .animal_15 {
+  background-position: -160px -80px;
+}
+.ogbox .animal_box .animal_16 {
+  background-position: 0 -120px;
+}
+.ogbox .animal_box .animal_17 {
+  background-position: -40px -120px;
+}
+.ogbox .animal_box .animal_18 {
+  background-position: -80px -120px;
+}
+.ogbox .animal_box .animal_19 {
+  background-position: -120px -120px;
+}
+.ogbox .animal_box .animal_20 {
+  background-position: -160px -120px;
+}
+.ogbox .animal_box .animal_21 {
+  background-position: 0 -160px;
+}
+.ogbox .animal_box .animal_22 {
+  background-position: -40px -160px;
+}
+.ogbox .animal_box .animal_23 {
+  background-position: -80px -160px;
+}
+.ogbox .animal_box .animal_24 {
+  background-position: -120px -160px;
+}
+.ogbox .animal_box .animal_25 {
+  background-position: -160px -160px;
+}
+.ogbox .animal_box .animal_26 {
+  background-position: 0 -200px;
+}
+.ogbox .animal_box .animal_27 {
+  background-position: -40px -200px;
+}
+.ogbox .animal_box .animal_28 {
+  background-position: -80px -200px;
+}
+.ogbox .animal_box .animal_29 {
+  background-position: -120px -200px;
+}
+.ogbox .animal_box .animal_30 {
+  background-position: -160px -200px;
+}
+.ogbox .animal_box .animal_31 {
+  background-position: 0 -240px;
+}
+.ogbox .animal_box .animal_32 {
+  background-position: -40px -240px;
+}
+.ogbox .animal_box .animal_33 {
+  background-position: -80px -240px;
+}
+.ogbox .animal_box .animal_34 {
+  background-position: -120px -240px;
+}
+.ogbox .animal_box .animal_35 {
+  background-position: -160px -240px;
+}
+.ogbox .animal_box .animal_36 {
+  background-position: 0 -280px;
+}
+.ogbox .animal_box .animal_37 {
+  background-position: -40px -280px;
+}
+.ogbox .animal_box .animal_38 {
+  background-position: -80px -280px;
+}
+.ogbox .animal_box .animal_39 {
+  background-position: -120px -280px;
+}
+.ogbox .animal_box .animal_40 {
+  background-position: -160px -280px;
+}
+.ogbox .button_box {
+  padding: 10px 5px 0px 15px;
+  height: 60px;
+  border-color: #c9e1f4;
+  background-color: #eaf3fe;
+}
+
+.mainbox {
+  width: 1300px;
+}

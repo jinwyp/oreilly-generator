@@ -1,0 +1,39 @@
+
+    <ul class="nav nav-pills nav-stacked" >
+        <li role="presentation" ng-class="{'active':css.currentSelectMenuIndex===$index}" ng-repeat="menu in menulist">
+
+            <a href="" ng-hide="css.currentEditMenuIndex === $index" ng-click="css.currentSelectMenuIndex=$index" ng-mouseenter="css.currentHoverMenuIndex=$index" ng-mouseleave="css.currentHoverMenuIndex=-1">
+                <span>{{menu.name}} </span>
+                <span ng-show="css.currentHoverMenuIndex === $index" class="glyphicon glyphicon-edit" aria-hidden="true" ng-click="editMenu($index, menu)"></span>
+            </a>
+
+            <form class="form-inline" ng-show="css.currentEditMenuIndex === $index">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputMenu" placeholder="Menu Name" ng-model="menu.name">
+                </div>
+
+                <button class="btn btn-primary" ng-click="saveEditMenu()">Save</button>
+                <button class="btn btn-danger" ng-click="deleteMenu($index)">Delete by Index</button>
+                <button class="btn btn-danger" ng-click="deleteMenu2(menu)">Delete by Item</button>
+            </form>
+
+        </li>
+
+        <li role="presentation" >
+            <button class="btn btn-default btn-sm" ng-hide="css.showAddNewMenuForm" ng-click="addMenu()">Add</button>
+
+            <form class="form-inline" ng-show="css.showAddNewMenuForm" >
+                <div class="form-group">
+                    <label for="inputMenu">Menu Name :</label>
+                    <input type="text" class="form-control" id="inputMenu" placeholder="Menu Name" ng-model="data.newMenu.name">
+                </div>
+                <button type="submit" class="btn btn-primary" ng-click="saveNewMenu()">Save</button>
+            </form>
+        </li>
+
+
+
+
+
+    </ul>
+

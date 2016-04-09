@@ -1,0 +1,24 @@
+
+$color_bg_body : #F6F8F8;
+$color_form_error : #a94442;
+
+
+
+// angular
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+
+body {
+    padding-top: 60px;
+    font: 14px "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+    background-color: $color_bg_body;
+}
+
+
+.form-validation {
+    padding: 5px 0px 0px 0px;
+    font-size: 16px;
+    color: $color_form_error;
+}
