@@ -1,0 +1,18 @@
+{
+  "non-interactive": true,
+  "dry-run": false,
+  "verbose": false,
+  "force": false,
+  "pkgFiles": ["package.json", "bower.json"],
+  "increment": "patch",
+  "commitMessage": "Release %s",
+  "tagName": "v%s",
+  "tagAnnotation": "Release %s",
+  "buildCommand": "npm run-script build:production",
+  "dist": {
+    "repo": "git@github.com:components/es6-promise.git",
+    "stageDir": "tmp/stage",
+    "base": "dist",
+    "files": ["**/*", "../package.json", "../bower.json"]
+  }
+}

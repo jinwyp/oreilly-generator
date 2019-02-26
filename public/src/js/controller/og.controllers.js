@@ -110,7 +110,10 @@
         }
 
         function screenShot(){
-            var myElement = $('.book_cover');
+            var myElement = document.querySelector('.book_cover');
+
+/* for html2canvas 0.4
+
             html2canvas(myElement, {
                 onrendered: function(canvas) {
                     var myImage = canvas.toDataURL("image/png");
@@ -119,6 +122,18 @@
                     // document.body.appendChild(canvas);
                 }
             });
+*/
+
+            html2canvas(myElement).then(function(canvas) {
+                var myImage = canvas.toDataURL("image/png");
+                var image = new Image();
+                image.src = myImage;
+
+                var w = window.open("");
+                w.document.write(image.outerHTML);
+
+            });
+
         }
 
 
